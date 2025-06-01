@@ -1,0 +1,144 @@
+:root
+{
+     --color:rgb(175, 170, 170);
+    --seccolor:rgb(146, 146, 146);
+    --another-color:rgb(168, 204, 201);
+    --decoration-color: rgba(46, 11, 11, 0.952);
+    --main-color:rgb(224, 224, 224);
+    --defpad:15px;
+    --defop:0.5;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    
+}
+header img
+{
+    position: relative;
+    width: 200px;
+    z-index: 0;
+}
+.background
+{
+    position: relative;
+    z-index: 0;
+}
+.background img
+{
+    width:1536px;
+    height: 580px;
+    display: block;
+}
+footer
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: small;
+}
+.box
+{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 320px;
+    height: 400px;
+    top:150px;
+    left:1010px;
+    opacity: 0.9;
+}
+h2
+{
+    position: absolute;
+    margin: 0px;
+    left: 0px;
+    text-align: center;
+    background-color: #A65B13;
+    width: 100%;
+    padding: 4px 0px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#username
+{
+    position: relative;
+    top: 90px;
+    left: 22px;
+    width: 85%;
+    height: 5%;
+    padding: 3px;
+    background-color: var(--color);
+    opacity: 0.9;
+    color: white;
+}
+#password
+{
+    position: relative;
+    top: 130px;
+    left: 22px;
+    width: 85%;
+    height: 5%;
+    padding: 3px;
+    background-color: var(--color);
+    opacity: 0.9;
+    color: white;
+}
+::placeholder
+{
+    position: relative;
+    color: #ffffff;
+    left: 8px;
+}
+.box img
+{
+    position: relative;
+    width: 89%;
+    top: 160px;
+    left: 22px;
+}
+#captcha
+{
+    position: relative;
+    top: 155px;
+    left: 22px;
+    width: 85%;
+    height: 5%;
+    padding: 3px;
+    background-color: var(--color);
+    opacity: 0.9;
+    color: white;
+}
+.forgot
+{
+    position: relative;
+    color: rgb(34, 94, 134);
+    top: 143px;
+    left:22px;
+    font-size: 15px;
+}
+.button
+{
+    position: relative;
+    top: 147px;
+    left: 60px;
+    color: white;
+    padding: 5px;
+}
+.sign
+{
+    background-color: #C1441B;
+}
+.refresh
+{
+    background-color: #F6B543;
+}
+@media only screen and (max-width: 455px)
+    {
+    
+    }
