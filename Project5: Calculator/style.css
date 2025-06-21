@@ -1,0 +1,81 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.container
+{
+    position: relative;
+    width: 17vw;
+    height: 50vh;
+    background-color:white;
+    padding: 2%;
+    border-radius: 20px;
+    border: 4px solid gray;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+#display
+{
+    width: 110%;
+    height: 17%;
+    background-color: black;
+    margin-left: -4%;
+    border-radius: 50px;
+    color: rgb(32, 220, 32);
+    text-align: right;
+    font-size: 2rem;
+    padding-right: 10px;     /* add space between text and right edge */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 4px solid gray;
+    overflow: hidden;
+}
+.options
+{
+    padding: 3%;
+    margin: 5%;
+}
+.line1>button,.line2>button,.line3>button,.line4>button,.line5>button
+{
+    background-color: rgba(14, 131, 203, 0.427);
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    font-size: 20px;
+    border: none;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.502);
+}
+.line1 > button:active,
+.line2 > button:active,
+.line3 > button:active,
+.line4 > button:active,
+.line5 > button:active {
+  transform: scale(0.95);
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+.line1 > button:focus,
+.line2 > button:focus,
+.line3 > button:focus,
+.line4 > button:focus,
+.line5 > button:focus {
+  outline: none;
+}
+.line1,.line2,.line3,.line4,.line5
+{
+    padding: 5%;
+    margin: 5%;
+    margin-left: -10%;
+    margin-top: -5%;
+    display: flex;
+    gap: 3%;
+    width: 30vw;
+    height: 5vh;
+}
